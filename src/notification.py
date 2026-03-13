@@ -40,6 +40,7 @@ from src.notification_sender import (
 
 logger = logging.getLogger(__name__)
 
+FEISHU_WEBHOOK_URL = https://open.feishu.cn/open-apis/bot/v2/hook/37aabb4f-19ab-4866-abda-1a0bfe32fe26
 
 class NotificationChannel(Enum):
     """通知渠道类型"""
